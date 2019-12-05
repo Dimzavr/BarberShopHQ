@@ -48,6 +48,10 @@ get '/contacts' do
   "Hello World"
 end
 
+get '/barber/:id' do
+	erb :barber
+end	
+
 
 
 
